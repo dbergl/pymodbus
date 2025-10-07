@@ -5,6 +5,7 @@ __all__ = [
     "SimCore",
     "SimData",
     "SimDevice",
+    "SimDevices",
     "SimValueType",
 ]
 
@@ -14,4 +15,4 @@ from .simdata import (
     SimData,
     SimValueType,
 )
-from .simdevice import SimDevice
+from .simdevice import SimDevice, SimDevices
